@@ -1,0 +1,149 @@
+.conteiner {
+	display: flex;
+	align-content: space-around;
+}
+
+.caixa1 {
+	width: 100%;
+}
+
+.item {
+	list-style: none;
+	font-size: 1.2rem;
+	
+}
+
+
+
+.logo {
+	width: 10vw;
+	height: 15vh;
+
+}
+
+.bolsa {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	align-items: center;
+
+}
+
+.fundo {
+	width: 81vw;
+	height: 90vh;
+}
+
+.titulo {
+	color: white;
+	width: 45vw;
+	font-size: 3.3rem;
+	position: absolute;
+	left: 30rem;
+	top: 7rem;
+
+}
+
+.full {
+	display: inline-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.box2 {
+
+	display: flex;
+	justify-content: space-around;
+	background-color: #EB268F;
+	height: 64vh;
+	width: 81vw;
+}
+
+.text {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color:white;
+}
+
+img {
+	display: flex;
+	align-items: flex-end;
+}
+
+.box3 {
+ 	font-size: 3.375rem;
+ 	color: #A6538D;
+ 	width:83%;
+ 	display: flex;
+ 	align-items: center;
+ }
+  .logo1{
+  	width: 10rem;
+  	height:10rem;
+  	
+  	
+  }
+
+  .logo2{
+  	width: 10rem;
+  	height:5rem;  	
+  }
+  .logo3{
+  	width: 10rem;
+  	height:10rem;  
+
+  }
+
+  .box3-logo{
+  	width: 81vw;
+  	height: 40vh;
+  	display:flex;
+
+  }
+  .titulo2 {
+  	font-size:3.375rem;
+  	color: #96D9FC;
+  	width: 83%;
+
+  }
+  .box5 {
+  	width: 81vw;
+  	height: 80vh;
+	font-size: 1.2rem;
+  	background-color:#A6538D;
+  	display: flex;
+  }
+
+.texto1 {
+	color: white;
+	font-family: Korolev;
+
+
+}
+
+.texto2 {
+	color: #FDCD27;
+	font-family: Korolev;
+
+}
+.caixadetexto {
+	width: 80%;
+}
+
+.box4-fim {width: 100%;
+
+}
+
+.fim {
+	display: flex;
+	flex-direction: row;
+}
+
+.logo4 {
+	width: 4rem;
+	height: 4rem;
+}
