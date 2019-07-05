@@ -2,7 +2,15 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 }
+
+@media (max-width: 768px) {
+	.box2 {
+		flex-direction: column;
+	}
+}
+
 
 main {
 	display: flex;
@@ -10,16 +18,47 @@ main {
 	align-items: flex-end;
 }
 
+@media (max-width: 768px) {
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
 .header {
 	width: 20%;
     height: 100%;
-       position: fixed;
+    position: fixed;
 	display: flex;
 	align-content: space-around;
 }
 
+@media (max-width: 768px) {
+	.box3-atividades {
+		position: relative;
+	}
+
+.box-atividades {
+	display:flex;
+	justify-content: flex-end; 
+}
+
+@media (max-width: 768px) {
+	.header {
+		width: 100%;
+		position: relative;
+	}
+}
+
 .container {
 	width: 100%;
+}
+
+@media (max-width: 768px;) {
+	.conteiner {
+	height: 13rem;
+    width: 47.6rem;
+}
 }
 
 .box-logo {
@@ -32,7 +71,6 @@ main {
 .img-logo {
 	width: 12vw;
 }
-
 .menu {
 	width: 100%;
 	height: 28%;
@@ -40,7 +78,27 @@ main {
 	flex-direction: column;
 	align-items: center;
 }
+.menu-hamburguer {
+	display: none;
+}
+@media (max-width: 768px) {
+	.menu-hamburguer {
+	  display: block;
+	  cursor: pointer;
+	  width: 100%;
+	  height: 100%;
+	  transition: all 0.3s ease-in-out;
+	}
+}
 
+.menu-hamburguer-itens {
+	margin-top: 10px;
+	  width: 60px;
+	  height: 10px;
+	  border-radius: 10px;
+	  background: #A6538D;
+	  transition: all 0.3s ease-in-out;
+	}
 .menu-lista {
 	height: 100%;
 	display: flex;
@@ -48,6 +106,11 @@ main {
     flex-direction: column;
 	list-style: none;
 	font-weight: bold;
+}
+@media (max-width: 768px) {
+	.menu-lista{
+		width: 10rem;
+	}
 }
 
 .menu-lista a {
@@ -84,6 +147,10 @@ main {
 	display: flex;
     justify-content: flex-end;
 }
+@media (max-width: 768px) {
+	.home {
+		width: 100%;
+	}
 
 .box-home {
 	width: 100%;
@@ -109,6 +176,11 @@ h1 {
 	justify-content: flex-end;
 }
 
+@media (max-width: 768px) {
+	.box-atividades {
+		width: 100%;
+	}
+
 .box2 {
 
 	display: flex;
@@ -129,11 +201,18 @@ h1 {
     line-height: 1.25rem;
 }
 
+@media (max-width: 768px) {
+	.caixa-texto {
+		line-height: 2rem;
+    	font-size: 1.8rem;
+    	width: 88%;
+    	height: 55rem;
+	}
+}
+
 .texto {
 	font-family:  KorolevMedium;
 }
-
-
 
 .slide-foto {
 	width: 133.2
@@ -143,6 +222,12 @@ h1 {
 	width: 80%;
 	height: 25rem;
 	padding-left: 2rem;
+}
+
+@media (max-width: 768px) {
+	.box3-atividades {
+		width: 100%;
+	}
 }
 .box3 {
  	width:100%;
@@ -195,6 +280,10 @@ h1 {
   	display: flex;
   	justify-content: flex-end;
   }  
+  @media (max-width: 768px) {
+	.box4-atividades {
+		width: 100%;
+	}
 
   .box4 {
   	width: 100%;
@@ -260,6 +349,13 @@ h1 {
 	display: flex;
    	justify-content: center;
     align-items: flex-end;
+  }
+
+  @media (max-width: 768px) {
+  	.slide-box {
+  		width: 100%;
+
+  	}
   }
 
 .slide-seta {

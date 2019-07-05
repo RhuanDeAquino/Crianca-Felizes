@@ -4,11 +4,10 @@
 <meta charset="utf-8">
 	<title>Crianças Felizes</title>
 <link rel="stylesheet" href="./assets/css/style.css">
-<link rel="stylesheet" href="./assets/css/fonts.css">
+<script src="./assets/css/main.js" type="text/javascript"></script>
 <meta name="viewport" content="width=device-width, inital-scale=1.0">
 </head>
 <body>
-
 <header class="header">	
 	<div class="container">
 		<figure class="box-logo">
@@ -17,7 +16,13 @@
 			</a>
 		</figure>
 		<nav  class="menu">
-			<ul class="menu-lista">
+			<dir onclick="eventclick()" class="menu-hamburguer">
+				<dir id="linha1" class="menu-hamburguer-itens"></dir>
+				<div id="linha2" class="menu-hamburguer-itens"></div>
+				<div id="linha3" class="menu-hamburguer-itens"></div>
+				
+			</dir>
+			<ul id="-lista" class="menu-lista">
 				<a href="#SOBRE">
 					<li class="menu-item">Sobre</li>
 				</a>
