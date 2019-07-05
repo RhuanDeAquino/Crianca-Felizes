@@ -37,6 +37,7 @@ main {
 	.box3-atividades {
 		position: relative;
 	}
+}
 
 .box-atividades {
 	display:flex;
@@ -54,10 +55,13 @@ main {
 	width: 100%;
 }
 
-@media (max-width: 768px;) {
-	.conteiner {
-	height: 13rem;
-    width: 47.6rem;
+@media (max-width: 768px) {
+	.container {
+	height: 37vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 }
 
@@ -68,9 +72,23 @@ main {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+	.box-logo {
+		height: 50%;
+    	align-items: flex-end;
+	}
+}
+
 .img-logo {
 	width: 12vw;
 }
+
+@media (max-width: 768px) {
+	.img-logo {
+		width: 30vw
+	}
+}
+
 .menu {
 	width: 100%;
 	height: 28%;
@@ -78,23 +96,38 @@ main {
 	flex-direction: column;
 	align-items: center;
 }
+@media (max-width: 768px){
+	.menu {
+	width: 32%;
+    height: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuconfig{
+	width: 100%;
+    height: 20vh;
+    flex-direction: row;
+}
+}
 .menu-hamburguer {
 	display: none;
 }
 @media (max-width: 768px) {
 	.menu-hamburguer {
 	  display: block;
-	  cursor: pointer;
-	  width: 100%;
-	  height: 100%;
-	  transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 25%;
+    height: 33%;
+    transition: all 0.3s ease-in-out;
 	}
 }
 
 .menu-hamburguer-itens {
 	margin-top: 10px;
-	  width: 60px;
-	  height: 10px;
+	  width: 40px;
+    height: 4px;
 	  border-radius: 10px;
 	  background: #A6538D;
 	  transition: all 0.3s ease-in-out;
@@ -109,7 +142,12 @@ main {
 }
 @media (max-width: 768px) {
 	.menu-lista{
-		width: 10rem;
+		display: none;
+	    width: 45vh;
+	    height: 100%;
+	    display: flex;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
 	}
 }
 
@@ -131,6 +169,11 @@ main {
 	text-decoration: none;
 	font-family: KorolevBold;
 }
+@media (max-width: 768px) {
+	.menu-item {
+		height: 9vh;
+	}
+}
 
 .caixa-fundo {
 	display: flex;
@@ -151,6 +194,7 @@ main {
 	.home {
 		width: 100%;
 	}
+}
 
 .box-home {
 	width: 100%;
@@ -180,6 +224,7 @@ h1 {
 	.box-atividades {
 		width: 100%;
 	}
+}
 
 .box2 {
 
@@ -284,6 +329,7 @@ h1 {
 	.box4-atividades {
 		width: 100%;
 	}
+}
 
   .box4 {
   	width: 100%;
