@@ -5,13 +5,6 @@
 
 }
 
-@media (max-width: 768px) {
-	.box2 {
-		flex-direction: column;
-	}
-}
-
-
 main {
 	display: flex;
 	flex-direction: column;
@@ -40,8 +33,8 @@ main {
 
 @media (max-width: 768px) {
 	.header {
-		width: 100%;
-		position: relative;
+	width: 100%;
+	position: relative;
 	}
 }
 
@@ -52,9 +45,10 @@ main {
 @media (max-width: 768px) {
 	.container {
 	height: 37vh;
-    width: 70%;
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-direction: row-reverse;
 }
 }
@@ -68,9 +62,11 @@ main {
 
 @media (max-width: 768px) {
 	.box-logo {
-		height: 50%;
-    	align-items: flex-end;
-	}
+	width: 63%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;	}
 }
 
 .img-logo {
@@ -92,28 +88,31 @@ main {
 }
 @media (max-width: 768px){
 	.menu {
-	width: 32%;
-    height: 28%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+		width: 32%;
+	    height: 28%;
+	    display: flex;
+	    flex-direction: row;
+	    align-items: center;
+	}
 
-.menuconfig{
-	width: 100%;
-    height: 20vh;
-    flex-direction: row;
-}
+	.menuconfig{
+		width: 100%;
+	    height: 20vh;
+	    flex-direction: row;
+	}
 }
 .menu-hamburguer {
 	display: none;
 }
 @media (max-width: 768px) {
 	.menu-hamburguer {
-	  display: block;
+	display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     cursor: pointer;
-    width: 25%;
-    height: 33%;
+    width: 24vw;
+    height: 10vh;
     transition: all 0.3s ease-in-out;
 	}
 }
@@ -137,9 +136,8 @@ main {
 @media (max-width: 768px) {
 	.menu-lista{
 		display: none;
-	    width: 45vh;
+	    width: 75%;
 	    height: 100%;
-	    display: flex;
 	    justify-content: space-between;
 	    flex-wrap: wrap;
 	}
@@ -157,11 +155,10 @@ main {
 }
 
 .menu-item {
-	
+	font-family: 'Korolev Bold';	
 	font-size: 1.2rem;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-family: KorolevBold;
 }
 @media (max-width: 768px) {
 	.menu-item {
@@ -170,8 +167,8 @@ main {
 }
 
 .caixa-fundo {
-	display: flex;
-    justify-content: flex-end;
+		display: flex;
+    	justify-content: flex-end;
 }
 .fundo {
 	width: 100vw;
@@ -186,7 +183,7 @@ main {
 }
 @media (max-width: 768px) {
 	.home {
-		width: 100%;
+	width: 100%;
 	}
 }
 
@@ -207,16 +204,23 @@ h1 {
 	font-size: 3.3rem;
 }
 
+@media (max-width: 768px) {
+	h1 {
+	width: 62%;
+	font-size: 2rem;
+	}
+}
+
 .box-atividades {
 	width: 80%;
-	height: 100vh;
+	height: 115vh;
 	display: flex;
-	justify-content: flex-end;
 }
 
 @media (max-width: 768px) {
 	.box-atividades {
-		width: 100%;
+	width: 100%;
+    height: 210vh;
 	}
 }
 
@@ -230,16 +234,17 @@ h1 {
 
 @media (max-width: 768px) {
 	.box2 {
+	flex-direction: column;
 	margin: 0;
     display: flex;
     height: 100%;
-    width: 57rem;
+    width: 88rem;
 	}
 }
 
 .caixa-texto {
-    width: 35%;
-    height: 30rem;
+    width: 39%;
+    height: 35rem;
 	display: flex;
 	flex-direction: column;
     justify-content: center;
@@ -250,11 +255,9 @@ h1 {
 
 @media (max-width: 768px) {
 	.caixa-texto {
-	padding-left: 2rem;
     line-height: 1.2;
     font-size: 1.3rem;
-    width: 88%;
-    height: 55rem;
+    width: 89%;
 	}
 }
 
@@ -267,15 +270,15 @@ h1 {
 }
 
 .box3-atividades {
-	width: 80%;
-	height: 25rem;
-	padding-left: 2rem;
+	width: 75%;
+    height: 21rem;
+    padding-left: 2rem;
 }
 
 @media (max-width: 768px) {
 	.box3-atividades {
 	width: 100%;
-	height: 20rem;
+	height: 16rem;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -284,46 +287,71 @@ h1 {
 	}
 }
 .box3 {
- 	width:100%;
- 	height: 25rem;
- 	flex-direction: column;
+ 	width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
  }
 
- h2 {
+h2 {
  	font-size: 3rem;
  	color: #A6538D;
  	padding-top: 2.5rem;
  	font-family: KorolevBold;
  }
 
+ @media (max-width: 768px) {
+	h2 {
+	display: flex;
+    justify-content: center
+	}
+ }
+
   .logo1{
-  	width: 6rem;
-  	height:6rem;
+  	width: 20%
+  }
+
+  @media (max-width: 768px) {
+  	.logo1 {
+  		width: 23%
+  	}
   }
 
   .logo2{
-  	width: 10rem;
-  	height:5rem;  	
-  }
-  .logo3{
-  	width: 10rem;
-  	height:10rem;  
+  	width: 25%;  	
   }
 
-  .box3-logo{
+  @media (max-width: 768px) {
+  	.logo2 {
+  		width: 23%
+  	}
+  }
+
+  .logo3{
+  	width: 30%;  
+  }
+
+  @media (max-width: 768px) {
+  	.logo3 {
+  		width: 30%
+  	}
+  }
+
+  .box3-logo {
   	height: 50%;
   	width: 90%;
     display: flex;
     align-items: center;
- }
+    justify-content: space-evenly;
+}
 
  @media (max-width: 768px) {
- 	.box-logo {
- 		width: 85%;
+ 	.box3-logo {
+ 		width: 100%;
+ 		padding-left: 2rem;
+
  	}
  }
+
   h3 {
   	font-size: 3rem;
   	color: #96D9FC;
@@ -356,12 +384,25 @@ h1 {
   	align-items: center;
   }
 
+  @media (max-width: 768px) {
+  	.box4 {
+  		height: 85vh;
+
+  	}
+  }
+
 .box-texto1 {
     width: 90%;
-    height: 50%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+  }
+
+  @media (max-width: 768px) {
+  	.box-texto1 {
+  	height: 120%
+  	}
   }
 .texto1 {
 	color: white;
@@ -396,12 +437,16 @@ h1 {
 	height: 3rem;
   }
 
-
-/* Slider */
-
 .slide{
 	width: 60%;
   } 
+
+  @media (max-width: 768px) {
+  	.slide {
+  	display: flex;
+    flex-direction: column-reverse;
+  	}
+  }
 
 .box-slide {
 	width: 100%; 
@@ -409,6 +454,14 @@ h1 {
 	display: flex;
    	justify-content: center;
     align-items: flex-end;
+  }
+
+  @media (max-width: 768px) {
+  	.box-slide {
+  	justify-content: flex-start;
+  	width: 100%;
+    height: 100.6%;
+  	}
   }
 
   @media (max-width: 768px) {
@@ -432,7 +485,8 @@ h1 {
  }
 
  @media (max-width: 768px) {
- 	.boxtao-texto {
+ 	.botao-texto {
+ 	height: 4rem;
  	display: flex;
     font-size: 1.6rem;
     width: 25rem;
@@ -441,4 +495,9 @@ h1 {
  }
 .slide-foto{
 	width: 133.2%;
+ }
+ @media (max-width: 768px) {
+ 	 .slide-foto {
+ 	width: 278%;
+ 	 }
  }
