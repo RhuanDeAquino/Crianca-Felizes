@@ -75,7 +75,7 @@ main {
 
 @media (max-width: 768px) {
 	.img-logo {
-		width: 30vw
+		width: 25vw
 	}
 }
 
@@ -206,8 +206,8 @@ h1 {
 
 @media (max-width: 768px) {
 	h1 {
-	width: 62%;
-	font-size: 2rem;
+	width: 80%;
+    font-size: 1.7rem
 	}
 }
 
@@ -220,13 +220,13 @@ h1 {
 @media (max-width: 768px) {
 	.box-atividades {
 	width: 100%;
-    height: 210vh;
+    height: 100%;
 	}
 }
 
 .box2 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	background-color: #EB268F;
 	height: 100%;
 	width: 100%;
@@ -243,6 +243,7 @@ h1 {
 }
 
 .caixa-texto {
+	margin-top: 10%;
     width: 39%;
     height: 35rem;
 	display: flex;
@@ -255,9 +256,11 @@ h1 {
 
 @media (max-width: 768px) {
 	.caixa-texto {
+	padding-left: 4rem;
     line-height: 1.2;
     font-size: 1.3rem;
     width: 89%;
+   height: 45%;
 	}
 }
 
@@ -347,7 +350,6 @@ h2 {
  @media (max-width: 768px) {
  	.box3-logo {
  		width: 100%;
- 		padding-left: 2rem;
 
  	}
  }
@@ -360,6 +362,12 @@ h2 {
   	font-family: KorolevBold;
   	display: flex;
     align-items: flex-end;
+  }
+
+  @media (max-width: 768px;) {
+  	h3 {
+    height: 37%;
+  	}
   }
 
   .box4-atividades {
@@ -401,7 +409,7 @@ h2 {
 
   @media (max-width: 768px) {
   	.box-texto1 {
-  	height: 120%
+  	height: 60%;
   	}
   }
 .texto1 {
@@ -410,6 +418,12 @@ h2 {
 	width: 45%;
 	justify-content: space-around;
 	align-items: center;
+  }
+
+  @media (max-width: 768px) {
+  	.texto1 {
+  	 width: 90%;
+  	}
   }
 
 .texto2 {
@@ -423,13 +437,24 @@ h2 {
     display: flex;
     align-items: flex-end;
 }
-
+@media (max-width: 768px) {
+	.caixa-fim {
+		height: 20%;
+	}
+}
 .fim {
 	width: 70vw;
     height: 22vh;
     display: flex;
     font-size: 0.8rem;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+	.fim {
+		width: 80vw;
+    	height: 100%;
+	}
 }
 
 .logo4 {
@@ -445,6 +470,7 @@ h2 {
   	.slide {
   	display: flex;
     flex-direction: column-reverse;
+    margin-top: 10%;
   	}
   }
 
@@ -475,6 +501,12 @@ h2 {
 	color: #FDCD27;
 	font-size: 1.5rem;
 	cursor:pointer;
+ }
+
+ @media (max-width: 768px) {
+ 	.slide-seta {
+ 		font-size: 4.5rem;
+ 	}
  }
 
  .botao-texto{
