@@ -518,7 +518,7 @@ h2 {
 
  @media (max-width: 768px) {
  	.botao-texto {
- 	height: 4rem;
+ 	height: 7rem;
  	display: flex;
     font-size: 1.6rem;
     width: 25rem;
