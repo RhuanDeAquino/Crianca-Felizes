@@ -497,7 +497,7 @@ h2 {
   	}
   }
 
-.slide-seta {
+/*.slide-seta {
 	color: #FDCD27;
 	font-size: 1.5rem;
 	cursor:pointer;
@@ -507,7 +507,7 @@ h2 {
  	.slide-seta {
  		font-size: 4.5rem;
  	}
- }
+ }*/
 
  .botao-texto{
   width: 81%;
@@ -523,9 +523,8 @@ h2 {
  	height: 7rem;
  	display: flex;
   font-size: 1.6rem;
-  width: 300px;
+  justify-content: space-between;
   padding-left: 0rem;
-  justify-content: space-around;
  	}
  }
 
