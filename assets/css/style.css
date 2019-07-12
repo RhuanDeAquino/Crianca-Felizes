@@ -510,6 +510,7 @@ h2 {
  }
 
  .botao-texto{
+  width: 81%;
  	display: flex;
  	align-items: center;
   justify-content: space-evenly;
@@ -522,7 +523,7 @@ h2 {
  	height: 7rem;
  	display: flex;
   font-size: 1.6rem;
-  width: 25rem;
+  width: 100%;
   padding-left: 0rem;
   justify-content: space-around;
  	}
