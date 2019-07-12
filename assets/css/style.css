@@ -497,18 +497,6 @@ h2 {
   	}
   }
 
-/*.slide-seta {
-	color: #FDCD27;
-	font-size: 1.5rem;
-	cursor:pointer;
- }
-
- @media (max-width: 768px) {
- 	.slide-seta {
- 		font-size: 4.5rem;
- 	}
- }*/
-
  .botao-texto{
   width: 81%;
  	display: flex;
@@ -520,7 +508,7 @@ h2 {
 
  @media (max-width: 768px) {
  	.botao-texto {
-  width: 55vw;
+  width: 100vw;
  	height: 7rem;
  	display: flex;
   font-size: 1.6rem;
