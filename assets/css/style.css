@@ -512,6 +512,7 @@ h2 {
  .botao-texto{
  	display: flex;
  	align-items: center;
+  justify-content: space-evenly;
  	font-family: KorolevLight;
  	font-size: 0.6rem
  }
@@ -520,10 +521,20 @@ h2 {
  	.botao-texto {
  	height: 7rem;
  	display: flex;
-    font-size: 1.6rem;
-    width: 25rem;
-    padding-left: 4rem;
+  font-size: 1.6rem;
+  width: 25rem;
+  padding-left: 0rem;
+  justify-content: space-around;
  	}
+ }
+
+ .direita {
+  width: 25px;
+ }
+
+ .esquerda {
+  transform: rotate(180deg);
+    width: 25px;
  }
 .slide-foto{
 	width: 133.2%;
